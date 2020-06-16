@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import '../App.css';
+import SimpleModal from "./modal";
 
 class Header extends Component {
+
     render() {
         return (
             <React.Fragment>
@@ -19,11 +21,10 @@ class Header extends Component {
                                 })}
                             </ul>
                         </nav>
-                        <a href="#" className="button button-black">Start</a>
+                        <SimpleModal>Modal</SimpleModal>
                     </div>
                 </header>
             </React.Fragment>
-
         );
     }
 }
