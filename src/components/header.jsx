@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import '../App.css';
-import SimpleModal from "./modal";
+import FormDialog from "./modal";
 
 class Header extends Component {
 
@@ -21,7 +21,7 @@ class Header extends Component {
                                 })}
                             </ul>
                         </nav>
-                        <SimpleModal>Modal</SimpleModal>
+                        <FormDialog>Modal</FormDialog>
                     </div>
                 </header>
             </React.Fragment>

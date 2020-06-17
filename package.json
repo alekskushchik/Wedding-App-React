@@ -8,11 +8,15 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.5.0",
+    "formik": "^2.1.4",
+    "formik-material-ui": "^2.0.0-beta.1",
     "muicss": "^0.10.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-material-ui-form-validator": "^2.0.10",
     "react-owl-carousel": "^2.3.1",
     "react-scripts": "3.4.1",
+    "react-toastify": "^6.0.5",
     "sass": "^1.26.8"
   },
   "scripts": {

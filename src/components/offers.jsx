@@ -11,7 +11,7 @@ class Offers extends Component {
 
                 <div className="offers">
                     {this.props.content.map( (item, i) =>
-                        <div className="offers__item">
+                        <div className="offers__item" key={i}>
                             <img src={require(`../img/icons/ico0${i+1}.svg`)} alt=""/>
                             <p>{item.title}</p>
                         </div>
