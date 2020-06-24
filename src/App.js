@@ -9,7 +9,6 @@ import Services from "./components/services";
 import Footer from "./components/footer";
 import Offers from "./components/offers";
 import Coaches from "./components/coaches";
-import AuthService from "./services/auth.service";
 
 class App extends Component {
 
@@ -69,7 +68,6 @@ class App extends Component {
                             description={info.meta.description}
                             action={info.action.title}
                             url={info.action.url}
-                            edit={AuthService.updateBlog}
                         />
                         <Services
                             title={services.meta.title}
