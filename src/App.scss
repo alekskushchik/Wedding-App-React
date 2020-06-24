@@ -93,6 +93,7 @@ a.button-black {
 .toaster {
   width: 90%;
 }
+
 .hero-section {
   width: 100%;
   height: 653px;
@@ -148,6 +149,31 @@ a.button-black {
           color: white;
         }
       }
+    }
+  }
+
+  textarea {
+    border: none;
+    resize: none;
+    //border-bottom: 2px solid blue;
+    width: 100%;
+
+    &.h1 {
+      font-size: 72px;
+      font-weight: 600;
+      line-height: .94;
+      height: 217px;
+    }
+
+    &.h4 {
+      font-size: 24px;
+      font-weight: 500;
+    }
+
+    &.p {
+      height: -webkit-fill-available;
+      max-height: 150px;
+      min-height: 50px;
     }
   }
 }

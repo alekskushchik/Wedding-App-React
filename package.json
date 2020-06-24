@@ -7,16 +7,21 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
     "formik": "^2.1.4",
     "formik-material-ui": "^2.0.0-beta.1",
     "muicss": "^0.10.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-hook-form": "^5.7.2",
     "react-material-ui-form-validator": "^2.0.10",
     "react-owl-carousel": "^2.3.1",
     "react-scripts": "3.4.1",
     "react-toastify": "^6.0.5",
+    "react-token-auth": "^1.1.7",
+    "react-validation": "^3.0.7",
+    "rxjs": "^6.5.5",
     "sass": "^1.26.8"
   },
   "scripts": {
@@ -41,6 +46,7 @@
     ]
   },
   "devDependencies": {
-    "react-preloaders": "^3.0.3"
+    "react-preloaders": "^3.0.3",
+    "react-router-dom": "^5.2.0"
   }
 }

@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import './App.scss';
+import 'bootstrap/dist/css/bootstrap.css';
+
 import {Ripple} from 'react-preloaders';
 import Header from "./components/header";
 import Info from "./components/info";
@@ -7,8 +9,10 @@ import Services from "./components/services";
 import Footer from "./components/footer";
 import Offers from "./components/offers";
 import Coaches from "./components/coaches";
+import AuthService from "./services/auth.service";
 
 class App extends Component {
+
     constructor(props) {
         super(props);
         this.state = {
@@ -36,7 +40,6 @@ class App extends Component {
     }
 
     render() {
-
         const {error, isLoaded, items} = this.state;
         const navigation = items.find(item => item.type === 'navigation');
         const info = items.find(item => item.type === 'info');
@@ -66,6 +69,7 @@ class App extends Component {
                             description={info.meta.description}
                             action={info.action.title}
                             url={info.action.url}
+                            edit={AuthService.updateBlog}
                         />
                         <Services
                             title={services.meta.title}
@@ -88,7 +92,6 @@ class App extends Component {
                             workExperience={coaches.content.workExperience}
                             teachExperience={coaches.content.teachExperience}
                             url={coaches.content.url}
-
                         />
                     </div>
                     <Footer/>
